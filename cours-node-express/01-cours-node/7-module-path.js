@@ -19,3 +19,4 @@ const absolutePath = path.resolve(
   'test.txt'
 );
 console.log(absolutePath);
+console.log(__dirname);

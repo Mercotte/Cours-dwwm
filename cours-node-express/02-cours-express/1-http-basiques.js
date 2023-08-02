@@ -19,7 +19,7 @@ const server = http.createServer((req, res) => {
     return;
   }
 
-  res.writeHead(404, { 'content-type': 'text/html' });
+  res.writable(404, { 'content-type': 'text/html' });
   res.write('<h1>Page introuvable</h1>');
   res.end();
 });
